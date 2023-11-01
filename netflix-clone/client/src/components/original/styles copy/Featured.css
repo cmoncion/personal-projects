@@ -1,0 +1,75 @@
+.featured {
+    height: 90vh;
+    position: relative;
+}
+
+.category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.category select {
+    cursor: pointer;
+    background-color: var(--main-color);
+    border: 1px solid white;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+}
+.featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured .info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: white;
+}
+
+.info img {
+    width: 364px;
+}
+.info .description {
+    margin: 20px 0px;
+}
+
+.info .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 4px 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.btn-play {
+    font-weight: bold;
+}
+.btn-info {
+    background-color: rgba(255, 255, 255, .3);
+    color: aliceblue;
+    font-weight: 500;
+}
+.buttons button i{
+    font-size: 25px;
+    display: flex;
+    
+}

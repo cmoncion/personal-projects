@@ -1,0 +1,32 @@
+.section-heros {
+  background-color: black;
+  color: white;
+  margin: 10px 0px;
+  padding-top: 50px;
+}
+
+.section-heros .container {
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.section-heros:nth-child(2n+1) .container {
+    flex-direction: row-reverse;
+}
+.section-heros h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section-heros p {
+    font-size: 25px;
+}
+.section-heros img {
+    width: 557px;
+}

@@ -1,0 +1,61 @@
+.browse-profile {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.pic-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+
+.pic-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(118, 118, 118);
+}
+
+.pic-box .btn-pro {
+    background-color: transparent;
+    border: none;
+    color: rgb(118, 118, 118);
+    cursor: pointer;
+}
+.pic-box img {
+    width: 150px;
+    height: 100%;
+}
+
+.btn-profile {
+
+    width: 180px;
+    padding: 10px 15px;
+    border: rgb(118, 118, 118) solid 1px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+    background-color: rgba(28, 28, 28, 0.3);
+    cursor: pointer;
+}
+
